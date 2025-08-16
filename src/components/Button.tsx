@@ -17,11 +17,11 @@ const Button: React.FC<ButtonProps> = ({
   className = '',
   ...props
 }) => {
-  const baseStyles = 'inline-flex items-center justify-center rounded-full font-bold transition-all duration-300 ease-in-out group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500';
+  const baseStyles = 'inline-flex items-center justify-center rounded-full font-bold transition-all duration-300 ease-in-out group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700';
 
   const variantStyles = {
-    primary: 'bg-gradient-to-r from-blue-900 to-black text-white shadow-2xl hover:from-blue-600 hover:to-purple-700 hover:scale-105 active:scale-95',
-    secondary: 'bg-white text-purple-800 shadow-2xl hover:bg-gray-100 hover:scale-105 active:scale-95',
+    primary: 'bg-gradient-to-r from-blue-950 to-black text-white shadow-2xl hover:from-blue-900 hover:to-gray-900 hover:scale-105 active:scale-95',
+    secondary: 'bg-gray-700 text-gray-100 shadow-2xl hover:bg-gray-800 hover:scale-105 active:scale-95',
     ghost: 'text-gray-700 hover:bg-gray-100',
   };
 

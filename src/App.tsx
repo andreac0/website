@@ -39,7 +39,6 @@ const App: React.FC = () => {
   return (
     <div className="font-inter antialiased overflow-x-hidden text-gray-900" lang={currentLanguage}>
       <Header
-        isScrolled={isScrolled}
         isMenuOpen={isMenuOpen}
         toggleMenu={toggleMenu}
         closeMenu={closeMenu}

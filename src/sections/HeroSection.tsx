@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import Button from '../components/Button';
 import { useTranslations } from '../context/TranslationContext';
+import DynamicBackground from '../components/DynamicBackground'; // Import the DynamicBackground component
 
 const HeroSection: React.FC = () => {
   const { t } = useTranslations();
@@ -11,11 +12,12 @@ const HeroSection: React.FC = () => {
       id="primaSezione"
       className="relative flex items-center min-h-[800px] text-white overflow-hidden"
     >
-      <div className="absolute inset-0" style={{ backgroundImage: `url('/images/PolygonLuminary.svg')`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+      {/* Use DynamicBackground as the background */}
+      <DynamicBackground />
 
       <div className="container mx-auto px-4 z-10 text-left relative">
         <div className="flex flex-wrap items-center justify-start">
-          <div className="w-full lg:w-9/12">
+          <div className="w-full lg:w-9/12 md:pl-16">
             <div className="animate-fade-in-up">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight drop-shadow-md">
                 {t("title_empower_your_legal_searches")}
@@ -39,4 +41,3 @@ const HeroSection: React.FC = () => {
 };
 
 export default HeroSection;
-

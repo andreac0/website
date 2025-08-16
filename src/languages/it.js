@@ -1,0 +1,57 @@
+const it = {
+    "technology": "Tecnologia",
+    "company": "Azienda",
+    "contact_us": "Contattaci",
+    "to_other_language": `
+        <select class="p-2 rounded-md bg-transparent border-none focus:outline-none text-white lg:text-gray-800">
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+        </select>
+    `,
+    "title_empower_your_legal_searches": "Potenzia la tua Ricerca Legale con i Grafi",
+    "subtitle_we_simplify_regulatory": "Creiamo e forniamo soluzioni tecnologiche, basate su modelli di dati di alta qualità, per rendere l'IA per i legali affidabile e accurata.",
+    "discover_more": "Scopri di più",
+    "technology_and_solutions": "Tecnologia e Soluzioni",
+    "subtitle_technology_and_solutions": "LegisRatio offre soluzioni innovative basate su intelligenza artificiale per semplificare e ottimizzare la ricerca legale e il monitoraggio normativo. La nostra tecnologia aiuta i professionisti legali a navigare paesaggi legali complessi in modo efficiente e accurato.",
+    "advanced_search_engine": "Motore di Ricerca Avanzato",
+    "subtitle_advanced_search_engine": "Il nostro motore di ricerca avanzato consente ai professionisti legali di trovare rapidamente informazioni pertinenti all'interno di vasti database legali. Sfruttando la tecnologia dei grafi, comprende le relazioni tra i documenti legali, fornendo risultati di ricerca contestuali e precisi.",
+    "subtitle_advanced_search_engine_2": "Dì addio alle tradizionali ricerche per parole chiave e adotta un modo più intelligente per scoprire approfondimenti legali. Il nostro motore evidenzia connessioni, precedenti e statuti correlati che altrimenti potresti perdere.",
+    "monitoring_system": "Sistema di Monitoraggio",
+    "subtitle_monitoring_system": "Rimani aggiornato con le modifiche in tempo reale della legislazione e dei quadri normativi. Il nostro sistema di monitoraggio ti avvisa di nuove leggi, emendamenti e decisioni giudiziarie pertinenti alle tue aree di pratica.",
+    "subtitle_monitoring_system_2": "Automatizza i tuoi sforzi di conformità normativa e assicurati di operare sempre con le informazioni legali più attuali. Questo approccio proattivo consente di risparmiare tempo e ridurre i rischi.",
+    "content_provision_service": "Servizio di Fornitura Contenuti",
+    "subtitle_content_provision_service": "Accedi a contenuti legali strutturati e di alta qualità tramite la nostra API. Il nostro servizio fornisce dati puliti e organizzati, pronti per l'integrazione nei tuoi strumenti e piattaforme legali esistenti.",
+    "subtitle_content_provision_service_2": "Migliora le tue applicazioni con dati legali affidabili. Garantiamo l'accuratezza dei dati e una copertura completa, consentendoti di costruire soluzioni legali più potenti e perspicaci.",
+    "data_integration_service": "Servizio di Integrazione Dati",
+    "subtitle_data_integration_service": "Integra senza soluzione di continuità diversi set di dati legali in un grafo di conoscenza unificato. Il nostro servizio armonizza fonti disparate, creando una visione completa e interconnessa delle informazioni legali.",
+    "subtitle_data_integration_service_2": "Elimina i silo di dati e sblocca nuove possibilità per l'analisi e la scoperta. Le nostre capacità di integrazione rendono i dati legali complessi gestibili e azionabili.",
+    "why_choose_us": "Perché Sceglierci?",
+    "up_to_date": "Aggiornato",
+    "subtitle_up_to_date": "Il nostro grafo di conoscenza è continuamente aggiornato con gli ultimi testi legali, assicurandoti di avere sempre accesso alle informazioni più attuali.",
+    "zero_hallucination": "Zero Allucinazioni",
+    "subtitle_zero_hallucination": "A differenza dei modelli AI generici, le nostre soluzioni sono basate su dati legali verificati, eliminando le 'allucinazioni' e fornendo risultati affidabili.",
+    "hundred_percent_relevance": "100% Pertinenza",
+    "subtitle_hundred_percent_relevance": "Il nostro approccio basato sui grafi garantisce che i risultati di ricerca e gli approfondimenti siano altamente pertinenti e direttamente applicabili alle tue interrogazioni legali.",
+    "our_data_sources": "Le Nostre Fonti di Dati",
+    "subtitle_our_data_sources": "Curiamo e integriamo meticolosamente i dati legali da fonti autorevoli per costruire una base di conoscenza robusta e affidabile.",
+    "national_legislation": "Legislazione Nazionale",
+    "subtitle_national_legislation": "Copertura completa delle leggi, decreti e regolamenti nazionali italiani.",
+    "regional_legislation": "Legislazione Regionale",
+    "subtitle_regional_legislation": "Accesso approfondito alle leggi regionali e agli atti amministrativi in Italia.",
+    "european_legislation": "Legislazione Europea",
+    "subtitle_european_legislation": "Integrazione delle principali direttive e regolamenti dell'Unione Europea che influenzano il diritto italiano.",
+    "court_decisions": "Decisioni Giudiziarie",
+    "subtitle_court_decisions": "Un database in crescita di sentenze giudiziarie pertinenti e precedenti legali.",
+    "need_a_different_data_source": "Hai bisogno di una fonte di dati diversa?",
+    "subtitle_need_a_different_data_source": "Stiamo costantemente espandendo la nostra copertura dati. Se hai requisiti dati specifici, non esitare a contattarci.",
+    "subtitle_company_section": "In LegisRatio, ci impegniamo a rivoluzionare la ricerca legale attraverso l'intelligenza artificiale avanzata e la tecnologia dei grafi. La nostra missione è fornire ai professionisti legali informazioni legali precise, contestuali e facili da comprendere.",
+    "awarded_research": "Ricerca Premiata",
+    "subtitle_awarded_research": "La nostra ricerca fondamentale è stata riconosciuta e premiata da prestigiose istituzioni, incluso il Parlamento italiano.",
+    "subtitle_spinoff_polimi": "LegisRatio è uno spin-off del Politecnico di Milano, che sfrutta la ricerca accademica all'avanguardia in soluzioni tecnologiche legali pratiche.",
+    "our_scientific_publications": "Le Nostre Pubblicazioni Scientifiche",
+    "view_article": "Visualizza Articolo",
+    "our_team": "Il Nostro Team",
+    "subtitle_contact_us": "Ci farebbe piacere sentirti! Che tu abbia una domanda, una proposta di progetto o semplicemente voglia connetterti, non esitare a contattarci."
+};
+
+export default it;

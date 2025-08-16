@@ -1,0 +1,57 @@
+const en = {
+    "technology": "Technology",
+    "company": "Company",
+    "contact_us": "Contact Us",
+    "to_other_language": `
+        <select class="p-2 rounded-md bg-transparent border-none focus:outline-none text-white lg:text-gray-800">
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+        </select>
+    `,
+    "title_empower_your_legal_searches": "Empower your Legal Search with Graphs",
+    "subtitle_we_simplify_regulatory": "We create and supply technological solutions, grounded on high-quality data models, to make AI for legals reliable and accurate.",
+    "discover_more": "Discover More",
+    "technology_and_solutions": "Technology and Solutions",
+    "subtitle_technology_and_solutions": "LegisRatio offers innovative AI-powered solutions to simplify and streamline legal research and regulatory monitoring. Our technology helps legal professionals navigate complex legal landscapes efficiently and accurately.",
+    "advanced_search_engine": "Advanced Search Engine",
+    "subtitle_advanced_search_engine": "Our advanced search engine allows legal professionals to quickly find relevant information within vast legal databases. Leveraging graph technology, it understands relationships between legal documents, providing contextual and precise search results.",
+    "subtitle_advanced_search_engine_2": "Say goodbye to traditional keyword searches and embrace a smarter way to uncover legal insights. Our engine highlights connections, precedents, and related statutes you might otherwise miss.",
+    "monitoring_system": "Monitoring System",
+    "subtitle_monitoring_system": "Stay updated with real-time changes in legislation and regulatory frameworks. Our monitoring system alerts you to new laws, amendments, and court decisions relevant to your practice areas.",
+    "subtitle_monitoring_system_2": "Automate your regulatory compliance efforts and ensure you're always operating with the most current legal information. This proactive approach saves time and reduces risk.",
+    "content_provision_service": "Content Provision Service",
+    "subtitle_content_provision_service": "Access high-quality, structured legal content through our API. Our service provides clean, organized data, ready for integration into your existing legal tech tools and platforms.",
+    "subtitle_content_provision_service_2": "Enhance your applications with reliable legal data. We ensure data accuracy and comprehensive coverage, allowing you to build more powerful and insightful legal solutions.",
+    "data_integration_service": "Data Integration Service",
+    "subtitle_data_integration_service": "Seamlessly integrate diverse legal datasets into a unified knowledge graph. Our service harmonizes disparate sources, creating a comprehensive and interconnected view of legal information.",
+    "subtitle_data_integration_service_2": "Break down data silos and unlock new possibilities for analysis and discovery. Our integration capabilities make complex legal data manageable and actionable.",
+    "why_choose_us": "Why Choose Us?",
+    "up_to_date": "Up-to-Date",
+    "subtitle_up_to_date": "Our knowledge graph is continuously updated with the latest legal texts, ensuring you always have access to the most current information.",
+    "zero_hallucination": "Zero Hallucination",
+    "subtitle_zero_hallucination": "Unlike generic AI models, our solutions are grounded in verified legal data, eliminating 'hallucinations' and providing trustworthy results.",
+    "hundred_percent_relevance": "100% Relevance",
+    "subtitle_hundred_percent_relevance": "Our graph-based approach guarantees that search results and insights are highly relevant and directly applicable to your legal queries.",
+    "our_data_sources": "Our Data Sources",
+    "subtitle_our_data_sources": "We meticulously curate and integrate legal data from authoritative sources to build a robust and reliable knowledge base.",
+    "national_legislation": "National Legislation",
+    "subtitle_national_legislation": "Comprehensive coverage of Italian national laws, decrees, and regulations.",
+    "regional_legislation": "Regional Legislation",
+    "subtitle_regional_legislation": "In-depth access to regional laws and administrative acts within Italy.",
+    "european_legislation": "European Legislation",
+    "subtitle_european_legislation": "Integration of key European Union directives and regulations impacting Italian law.",
+    "court_decisions": "Court Decisions",
+    "subtitle_court_decisions": "A growing database of relevant court judgments and legal precedents.",
+    "need_a_different_data_source": "Need a different data source?",
+    "subtitle_need_a_different_data_source": "We are constantly expanding our data coverage. If you have specific data requirements, please reach out to us.",
+    "subtitle_company_section": "At LegisRatio, we are committed to revolutionizing legal research through advanced AI and graph technology. Our mission is to empower legal professionals with precise, contextual, and easy-to-understand legal information.",
+    "awarded_research": "Awarded Research",
+    "subtitle_awarded_research": "Our foundational research has been recognized and awarded by prestigious institutions, including the Italian Parliament.",
+    "subtitle_spinoff_polimi": "LegisRatio is a spin-off company from Politecnico di Milano, leveraging cutting-edge academic research into practical legal tech solutions.",
+    "our_scientific_publications": "Our Scientific Publications",
+    "view_article": "View Article",
+    "our_team": "Our Team",
+    "subtitle_contact_us": "We'd love to hear from you! Whether you have a question, a project proposal, or just want to connect, feel free to reach out."
+};
+
+export default en;

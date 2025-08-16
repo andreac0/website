@@ -5,9 +5,11 @@ interface NavbarLinkProps {
   to: string;
   children: React.ReactNode;
   closeMenu: () => void;
+  isScrolled: boolean; // Add this prop
 }
 
-const NavbarLink: React.FC<NavbarLinkProps> = ({ to, children, closeMenu }) => {
+
+const NavbarLink: React.FC<NavbarLinkProps> = ({ to, children, closeMenu, isScrolled }) => {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const targetId = to.substring(1);
@@ -25,7 +27,17 @@ const NavbarLink: React.FC<NavbarLinkProps> = ({ to, children, closeMenu }) => {
 
   return (
     <li>
-      <a className="block px-4 py-2 rounded-lg text-base font-medium text-gray-700 hover:bg-gradient-to-r hover:from-purple-100 hover:to-blue-100 transition duration-300 ease-in-out md:px-3 md:py-2 md:hover:from-transparent md:hover:to-transparent md:hover:text-purple-700" href={to} onClick={handleClick}>
+
+
+
+
+      <a
+        className={`block px-4 py-2 rounded-lg text-base font-medium transition duration-300 ease-in-out md:px-3 md:py-2 md:hover:from-transparent md:hover:to-transparent md:hover:text-purple-700
+          ${isScrolled ? 'text-gray-700 hover:bg-gradient-to-r hover:from-purple-100 hover:to-blue-100' : 'text-white hover:bg-white hover:bg-opacity-20'}
+        `}
+        href={to}
+        onClick={handleClick}
+      >
         {children}
       </a>
     </li>
